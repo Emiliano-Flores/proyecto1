@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+/* line 12, ../../../../PROYECTO FINAL/scss/_main.scss */
+#grilla {
+  padding: 100px;
+  overflow: hidden;
+  display: grid;
+  height: 1500px;
+  grid-auto-columns: 2fr 2fr 2fr;
+  grid-auto-rows: 2fr 2fr 2fr;
+  grid-template-areas: "foto1 foto2" "foto3 foto4";
+}
+
+/* line 20, ../../../../PROYECTO FINAL/scss/_main.scss */
+.foto1 {
+  padding: 10px;
+  grid-area: foto1;
+}
+
+/* line 24, ../../../../PROYECTO FINAL/scss/_main.scss */
+.foto2 {
+  grid-area: foto2;
+}
+
+/* line 27, ../../../../PROYECTO FINAL/scss/_main.scss */
+.foto3 {
+  grid-area: foto3;
+}
+
+/* line 30, ../../../../PROYECTO FINAL/scss/_main.scss */
+.foto4 {
+  grid-area: foto4;
+}
+
+/* line 33, ../../../../PROYECTO FINAL/scss/_main.scss */
+.type-light {
+  font-size: 1rem;
+  font-weight: 300;
+  color: black;
+}
+
+/* line 36, ../../../../PROYECTO FINAL/scss/_main.scss */
+.type-regular, .type-regular--subtitulo, .seo {
+  font-size: 1rem;
+  font-weight: 400;
+  color: black;
+}
+
+/* line 39, ../../../../PROYECTO FINAL/scss/_main.scss */
+.type-bold, .type-bold--titulos {
+  font-size: 1rem;
+  font-weight: 700;
+  color: black;
+}
+
+/* line 42, ../../../../PROYECTO FINAL/scss/_main.scss */
+.type-bold--titulos {
+  padding: 50px;
+  font-size: 4rem;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+}
+
+/* line 48, ../../../../PROYECTO FINAL/scss/_main.scss */
+.type-bold--titulos:hover {
+  color: coral;
+}
+
+/* line 52, ../../../../PROYECTO FINAL/scss/_main.scss */
+.type-regular--subtitulo, .seo {
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  color: #000;
+  font-size: 25px;
+}
+
+/* line 59, ../../../../PROYECTO FINAL/scss/_main.scss */
+body {
+  background-image: url(../media/fondo.jpg);
+  width: 100%;
+}
+
+/* line 63, ../../../../PROYECTO FINAL/scss/_main.scss */
+.adn {
+  letter-spacing: 0.5px;
+  font-size: 2rem;
+  font-family: Actief Grotesque,   sans-serif;
+  font-weight: 6rem;
+  color: black;
+  text-align: center;
+}
+
+/* line 71, ../../../../PROYECTO FINAL/scss/_main.scss */
+.seo {
+  font-size: 30px;
+}
+
+/*# sourceMappingURL=estilos.css.map */

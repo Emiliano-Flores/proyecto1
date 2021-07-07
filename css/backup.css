@@ -1,0 +1,122 @@
+html{
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url(../media/fondo.jpg);
+	width: 100%;
+}
+h1{
+	padding: 50px;
+	text-align: center;
+	font-family: Prequel Demo Shadow Italic, sans-serif;
+	font-size: 4rem;
+	color: black;
+}
+h1:hover{
+	text-align: center;
+	color: coral;
+}
+.scale{
+	color: coral;
+	padding: 10px;
+	text-align: center;
+	font-family: 'Baloo 2', cursive;
+	color: #000;
+	font-size: 30px;
+}
+ul {
+	font-size: 20px;
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	overflow: hidden;
+	padding: 50px;
+	list-style-position: inside;
+}
+form{
+	height: 50px;
+	text-align: center;
+	margin-bottom: 100px;
+}
+.row{
+	text-align: center;
+}
+.adn{
+	letter-spacing: 0.5px;
+	font-size: 2rem;
+	font-family: Actief Grotesque,-apple-system,.SFNSText-Regular,San Francisco,Roboto,Segoe UI,Helvetica Neue,Lucida Grande,sans-serif;
+	font-weight: 250;
+	color: black;
+	text-align: center;
+}
+.texto{
+	text-align: justify;	
+	font-size: normal;
+	font-weight: bold; 
+	line-height: 1.5;
+	color: red;
+	text-decoration: none;
+	word-spacing: 5px;
+}
+.Titulos{
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	color: red;
+}
+.Productos{
+	padding: 1px;
+	text-align: justify;
+	color:green;
+}
+.posicionFija{
+	font-family: tahoma ,sans-serif;
+	color: coral;
+	background-color: #000;
+    display: inline-block;
+    border: solid 1px black;
+	float: right;
+	position: sticky;
+	top: 20px;
+	bottom: 100px
+}
+.hijoDiferente{
+
+	padding: 20px;
+	text-align: center;
+	color: green;
+}
+#grilla{
+	padding: 100px;
+	overflow: hidden;
+	display: grid;
+	height: 1500px;
+	grid-auto-columns: 2fr 2fr 2fr;
+	grid-auto-rows: 2fr 2fr 2fr;
+	grid-template-areas:
+	"foto1 foto2"
+	"foto3 foto4"
+}
+.foto1{
+	padding: 10px;
+	grid-area: foto1;
+}
+.foto2{
+	height: 100px;
+	grid-area: foto2;
+}
+.foto3{
+	padding: 10px;
+	grid-area: foto3;
+}
+.foto4{
+	grid-area: foto4;
+}
+@media all and (min-width: 768px){
+	.Newsletter{
+		font-weight: 10px
+	}
+}

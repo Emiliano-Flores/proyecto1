@@ -1,0 +1,74 @@
+@mixin fuentes($size, $weight){
+	font-size: $size;
+	font-weight: $weight;
+	color: black;
+}
+@mixin productos{
+	padding: 100px;
+	overflow: hidden;
+	display: grid;
+	height: 1500px;
+}
+#grilla{
+	@include productos;
+	grid-auto-columns: 2fr 2fr 2fr;
+	grid-auto-rows: 2fr 2fr 2fr;
+	grid-template-areas:
+	"foto1 foto2"
+	"foto3 foto4"
+}
+.foto1{
+	padding: 10px;
+	grid-area: foto1;
+}
+.foto2{
+	grid-area: foto2;
+}
+.foto3{
+	grid-area: foto3;
+}
+.foto4{
+	grid-area: foto4;
+}
+.type-light{
+	@include fuentes(1rem, $fuente-light);
+}
+.type-regular{
+	@include fuentes(1rem, $fuente-regular);
+}
+.type-bold{
+	@include fuentes(1rem, $fuente-bold);
+}
+.type-bold--titulos{
+	@extend .type-bold;
+	padding: 50px;
+	font-size: 4rem;
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	&:hover{
+		color: coral;
+	}
+}
+.type-regular--subtitulo{
+	@extend .type-regular;
+	font-family: 'Lobster', cursive;
+	text-align: center;
+	color: #000;
+	font-size: 25px;
+}
+body{
+	background-image: url(../media/fondo.jpg);
+	width: 100%;
+}
+.adn{
+	letter-spacing: 0.5px;
+	font-size: 2rem;
+	font-family: Actief Grotesque,   sans-serif;
+	font-weight: 6rem;
+	color: black;
+	text-align: center;
+}
+.seo{
+	@extend .type-regular--subtitulo;
+	font-size: 30px;
+}
