@@ -1,86 +1,91 @@
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@300;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
-/* line 12, ../../../../PROYECTO FINAL/scss/_main.scss */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
+/* line 14, ../../../../PROYECTO FINAL/scss/_main.scss */
 #grilla {
   padding: 100px;
   overflow: hidden;
   display: grid;
   height: 1500px;
+  max-width: 500px;
+  width: 100%;
   grid-auto-columns: 2fr 2fr 2fr;
   grid-auto-rows: 2fr 2fr 2fr;
   grid-template-areas: "foto1 foto2" "foto3 foto4";
 }
 
-/* line 20, ../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 22, ../../../../PROYECTO FINAL/scss/_main.scss */
 .foto1 {
   padding: 10px;
   grid-area: foto1;
 }
 
-/* line 24, ../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 26, ../../../../PROYECTO FINAL/scss/_main.scss */
 .foto2 {
   grid-area: foto2;
 }
 
-/* line 27, ../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 29, ../../../../PROYECTO FINAL/scss/_main.scss */
 .foto3 {
   grid-area: foto3;
 }
 
-/* line 30, ../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 32, ../../../../PROYECTO FINAL/scss/_main.scss */
 .foto4 {
   grid-area: foto4;
 }
 
-/* line 33, ../../../../PROYECTO FINAL/scss/_main.scss */
-.type-light {
+/* line 35, ../../../../PROYECTO FINAL/scss/_main.scss */
+.type-light, .type-light--subtitulo, .seo {
   font-size: 1rem;
-  font-weight: 300;
+  font-weight: 100;
   color: black;
 }
 
-/* line 36, ../../../../PROYECTO FINAL/scss/_main.scss */
-.type-regular, .type-regular--subtitulo, .seo {
+/* line 38, ../../../../PROYECTO FINAL/scss/_main.scss */
+.type-regular {
   font-size: 1rem;
   font-weight: 400;
   color: black;
 }
 
-/* line 39, ../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 41, ../../../../PROYECTO FINAL/scss/_main.scss */
 .type-bold, .type-bold--titulos {
   font-size: 1rem;
   font-weight: 700;
   color: black;
 }
 
-/* line 42, ../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 44, ../../../../PROYECTO FINAL/scss/_main.scss */
 .type-bold--titulos {
   padding: 50px;
   font-size: 4rem;
   text-align: center;
-  font-family: 'Lobster', cursive;
+  font-family: 'Montserrat', sans-serif;
 }
 
-/* line 48, ../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 50, ../../../../PROYECTO FINAL/scss/_main.scss */
 .type-bold--titulos:hover {
   color: coral;
 }
 
-/* line 52, ../../../../PROYECTO FINAL/scss/_main.scss */
-.type-regular--subtitulo, .seo {
-  font-family: 'Lobster', cursive;
+/* line 54, ../../../../PROYECTO FINAL/scss/_main.scss */
+.type-light--subtitulo, .seo {
+  ffont-family: 'Montserrat', sans-serif;
   text-align: center;
   color: #000;
   font-size: 25px;
 }
 
-/* line 59, ../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 61, ../../../../PROYECTO FINAL/scss/_main.scss */
 body {
   background-image: url(../media/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
 }
 
-/* line 63, ../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 67, ../../../../PROYECTO FINAL/scss/_main.scss */
 .adn {
   letter-spacing: 0.5px;
   font-size: 2rem;
@@ -90,9 +95,14 @@ body {
   text-align: center;
 }
 
-/* line 71, ../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 75, ../../../../PROYECTO FINAL/scss/_main.scss */
 .seo {
   font-size: 30px;
+}
+
+/* line 79, ../../../../PROYECTO FINAL/scss/_main.scss */
+p {
+  margin: 20px;
 }
 
 /*# sourceMappingURL=estilos.css.map */

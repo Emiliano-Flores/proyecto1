@@ -8,6 +8,8 @@
 	overflow: hidden;
 	display: grid;
 	height: 1500px;
+	max-width: 500px;
+	width: 100%;
 }
 #grilla{
 	@include productos;
@@ -44,20 +46,22 @@
 	padding: 50px;
 	font-size: 4rem;
 	text-align: center;
-	font-family: 'Lobster', cursive;
+	font-family: 'Montserrat', sans-serif;
 	&:hover{
 		color: coral;
 	}
 }
-.type-regular--subtitulo{
-	@extend .type-regular;
-	font-family: 'Lobster', cursive;
+.type-light--subtitulo{
+	@extend .type-light;
+	ffont-family: 'Montserrat', sans-serif;
 	text-align: center;
 	color: #000;
 	font-size: 25px;
 }
 body{
 	background-image: url(../media/fondo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 	width: 100%;
 }
 .adn{
@@ -69,6 +73,9 @@ body{
 	text-align: center;
 }
 .seo{
-	@extend .type-regular--subtitulo;
+	@extend .type-light--subtitulo;
 	font-size: 30px;
+}
+p{
+	margin: 20px;
 }
