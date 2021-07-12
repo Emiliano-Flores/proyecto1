@@ -1,91 +1,88 @@
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@300;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
-/* line 14, ../../../../PROYECTO FINAL/scss/_main.scss */
-#grilla {
-  padding: 100px;
-  overflow: hidden;
-  display: grid;
-  height: 1500px;
-  max-width: 500px;
+/* line 6, ../../../../../PROYECTO FINAL/scss/_main.scss */
+.navbar {
+  align-items: center;
+}
+
+/* line 9, ../../../../../PROYECTO FINAL/scss/_main.scss */
+#header {
+  background-color: #34E4DF;
+  height: 90px;
   width: 100%;
-  grid-auto-columns: 2fr 2fr 2fr;
-  grid-auto-rows: 2fr 2fr 2fr;
-  grid-template-areas: "foto1 foto2" "foto3 foto4";
+  position: fixed;
+  top: 0px;
+  z-index: 100;
+  border-bottom: 1px solid black;
 }
 
-/* line 22, ../../../../PROYECTO FINAL/scss/_main.scss */
-.foto1 {
-  padding: 10px;
-  grid-area: foto1;
+/* line 25, ../../../../../PROYECTO FINAL/scss/_main.scss */
+#header .botonera ul li {
+  display: inline-block;
 }
 
-/* line 26, ../../../../PROYECTO FINAL/scss/_main.scss */
-.foto2 {
-  grid-area: foto2;
+/* line 50, ../../../../../PROYECTO FINAL/scss/_main.scss */
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 400;
 }
 
-/* line 29, ../../../../PROYECTO FINAL/scss/_main.scss */
-.foto3 {
-  grid-area: foto3;
+/* line 54, ../../../../../PROYECTO FINAL/scss/_main.scss */
+.subtitulo {
+  margin: auto;
+  text-align: center;
 }
 
-/* line 32, ../../../../PROYECTO FINAL/scss/_main.scss */
-.foto4 {
-  grid-area: foto4;
+/* line 58, ../../../../../PROYECTO FINAL/scss/_main.scss */
+#grilla {
+  min-height: 20px;
 }
 
-/* line 35, ../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 62, ../../../../../PROYECTO FINAL/scss/_main.scss */
 .type-light, .type-light--subtitulo, .seo {
   font-size: 1rem;
   font-weight: 100;
   color: black;
 }
 
-/* line 38, ../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 65, ../../../../../PROYECTO FINAL/scss/_main.scss */
 .type-regular {
   font-size: 1rem;
   font-weight: 400;
   color: black;
 }
 
-/* line 41, ../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 68, ../../../../../PROYECTO FINAL/scss/_main.scss */
 .type-bold, .type-bold--titulos {
   font-size: 1rem;
   font-weight: 700;
   color: black;
 }
 
-/* line 44, ../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 71, ../../../../../PROYECTO FINAL/scss/_main.scss */
 .type-bold--titulos {
   padding: 50px;
   font-size: 4rem;
+  margin: auto;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
 
-/* line 50, ../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 78, ../../../../../PROYECTO FINAL/scss/_main.scss */
 .type-bold--titulos:hover {
   color: coral;
 }
 
-/* line 54, ../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 82, ../../../../../PROYECTO FINAL/scss/_main.scss */
 .type-light--subtitulo, .seo {
   ffont-family: 'Montserrat', sans-serif;
   text-align: center;
   color: #000;
-  font-size: 25px;
+  font-size: 30px;
 }
 
-/* line 61, ../../../../PROYECTO FINAL/scss/_main.scss */
-body {
-  background-image: url(../media/fondo.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-}
-
-/* line 67, ../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 89, ../../../../../PROYECTO FINAL/scss/_main.scss */
 .adn {
   letter-spacing: 0.5px;
   font-size: 2rem;
@@ -95,12 +92,24 @@ body {
   text-align: center;
 }
 
-/* line 75, ../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 97, ../../../../../PROYECTO FINAL/scss/_main.scss */
+article h1 {
+  font-size: 40px;
+}
+
+/* line 100, ../../../../../PROYECTO FINAL/scss/_main.scss */
+.formulario {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+/* line 105, ../../../../../PROYECTO FINAL/scss/_main.scss */
 .seo {
   font-size: 30px;
 }
 
-/* line 79, ../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 109, ../../../../../PROYECTO FINAL/scss/_main.scss */
 p {
   margin: 20px;
 }

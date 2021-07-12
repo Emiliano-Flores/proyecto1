@@ -17,6 +17,7 @@
 		   	<span class="navbar-toggler-icon"></span>
 		  </button>
 		  <div class="collapse navbar-collapse" id="navbarNav">
+		  	<a href="../media/logomarea.png"></a>
 		    <ul class="navbar-nav">
 		      <li class="nav-item active">
 		        <a class="nav-link" href="pages/productos.html">Productos<span class="sr-only"></span></a>
@@ -34,20 +35,63 @@
 		  </div>
 		</nav>
 	</div>
-	<div class="estrella">
-	</div>
 	<div class="container">
 		<div class="type-bold--titulos">Marea Balance Boards</div>	
 	</div>	
-	<div>
-		<p class="type-light-subtitulo">
+	<div class="subtitulo">
+		<p class="type-light--subtitulo">
 			Bienvenidos a nuestra pagina!
-			Tenemos el agrado de presentar este producto, ideal para todas las edades y niveles, con increibles diseños exclusivos y una amplia variedad.
+			Tenemos el agrado de presentar este producto, increibles diseños exclusivos y una amplia variedad!.
 		</p>
 	</div>
-	<br>
-	<br>
-	<br>
+	<h1 class="subtitulo">Preguntas Frecuentes</h1>  
+	<div class="accordion" id="accordionExample">
+	  <div class="card">
+	    <div class="card-header" id="headingOne">
+	      <h2 class="mb-0">
+	        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+	          A partir de que edad se puede usar?
+	        </button>
+	      </h2>
+	    </div>
+
+	    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+	      <div class="card-body">
+	       A partir de los 3 años de edad.
+	      </div>
+	    </div>
+	  </div>
+	  <div class="card">
+	    <div class="card-header" id="headingTwo">
+	      <h2 class="mb-0">
+	        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+	          Que tan seguro es?
+	        </button>
+	      </h2>
+	    </div>
+	    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+	      <div class="card-body">
+	         Nuestros productos cuentan con sistemas de seguridad para que toda la familia pueda disfrutar de balancearse y sin peligros.
+	      </div>
+	    </div>
+	  </div>
+	  <div class="card">
+	    <div class="card-header" id="headingThree">
+	      <h2 class="mb-0">
+	        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+	          Porque Marea y no otra tabla?
+	        </button>
+	      </h2>
+	    </div>
+	    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+	      <div class="card-body">
+	        Trabajamos muy duro en los diseños exclusivos que tenemos para brindarte, para que puedas elegir tu medida, tipo de tabla y color.
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+
 	<div>
 		<div class="container">
 			<div class="row">
@@ -56,7 +100,7 @@
 				</div>
 			</div>
 		</div>
-		<form action="pages/recibe.html" method="POST" enctype="multipart/form-data">
+		<form class="formulario" action="pages/recibe.html" method="POST" enctype="multipart/form-data">
 			<input type="text" name="nombre" placeholder="Ingresa tu nombre">
 			<input type="email" name="email" placeholder="Ingresa tu email">
 			<input type="submit" name="sube_form" value="ENVIAR">

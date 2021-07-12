@@ -3,34 +3,61 @@
 	font-weight: $weight;
 	color: black;
 }
-@mixin productos{
-	padding: 100px;
-	overflow: hidden;
-	display: grid;
-	height: 1500px;
-	max-width: 500px;
+.navbar{
+	align-items: center;
+}
+#header{
+	background-color: #34E4DF;
+	height: 90px;
 	width: 100%;
+	position: fixed;
+	top: 0px;
+	z-index: 100;
+	border-bottom: 1px solid black;
+}
+#header .botonera{
+
+
+}
+#header .botonera ul{
+
+}
+#header .botonera ul li{
+	display: inline-block;
+
+}
+#header .botonera ul li a{
+
+}
+#header .logo{
+
+}
+#header .logo img{
+
+}
+#contenido{
+
+}
+#contenedor h2{
+
+}
+#contenedor h3{
+
+}
+#contenedor .productos{
+
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 400;
+}
+.subtitulo{
+	margin: auto;
+	text-align: center;
 }
 #grilla{
-	@include productos;
-	grid-auto-columns: 2fr 2fr 2fr;
-	grid-auto-rows: 2fr 2fr 2fr;
-	grid-template-areas:
-	"foto1 foto2"
-	"foto3 foto4"
-}
-.foto1{
-	padding: 10px;
-	grid-area: foto1;
-}
-.foto2{
-	grid-area: foto2;
-}
-.foto3{
-	grid-area: foto3;
-}
-.foto4{
-	grid-area: foto4;
+	min-height: 20px;
+
 }
 .type-light{
 	@include fuentes(1rem, $fuente-light);
@@ -45,6 +72,7 @@
 	@extend .type-bold;
 	padding: 50px;
 	font-size: 4rem;
+	margin: auto;
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
 	&:hover{
@@ -56,13 +84,7 @@
 	ffont-family: 'Montserrat', sans-serif;
 	text-align: center;
 	color: #000;
-	font-size: 25px;
-}
-body{
-	background-image: url(../media/fondo.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	width: 100%;
+	font-size: 30px;
 }
 .adn{
 	letter-spacing: 0.5px;
@@ -71,6 +93,14 @@ body{
 	font-weight: 6rem;
 	color: black;
 	text-align: center;
+}
+article h1{
+	font-size: 40px;
+}
+.formulario{
+	display: flex;
+	flex-direction: row;
+	margin: auto;
 }
 .seo{
 	@extend .type-light--subtitulo;
