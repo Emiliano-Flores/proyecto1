@@ -74,14 +74,17 @@ body{
 	font-size: 4rem;
 	margin: auto;
 	text-align: center;
+	display: block;
+	background-color: #12A4A6;
 	font-family: 'Montserrat', sans-serif;
 	&:hover{
 		color: coral;
 	}
+
 }
 .type-light--subtitulo{
 	@extend .type-light;
-	ffont-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	text-align: center;
 	color: #000;
 	font-size: 30px;
@@ -89,7 +92,7 @@ body{
 .adn{
 	letter-spacing: 0.5px;
 	font-size: 2rem;
-	font-family: Actief Grotesque,   sans-serif;
+	font-family: Actief Grotesque, sans-serif;
 	font-weight: 6rem;
 	color: black;
 	text-align: center;

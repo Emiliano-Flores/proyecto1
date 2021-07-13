@@ -66,50 +66,52 @@ body {
   font-size: 4rem;
   margin: auto;
   text-align: center;
+  display: block;
+  background-color: #12A4A6;
   font-family: 'Montserrat', sans-serif;
 }
 
-/* line 78, ../../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 80, ../../../../../PROYECTO FINAL/scss/_main.scss */
 .type-bold--titulos:hover {
   color: coral;
 }
 
-/* line 82, ../../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 85, ../../../../../PROYECTO FINAL/scss/_main.scss */
 .type-light--subtitulo, .seo {
-  ffont-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
   color: #000;
   font-size: 30px;
 }
 
-/* line 89, ../../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 92, ../../../../../PROYECTO FINAL/scss/_main.scss */
 .adn {
   letter-spacing: 0.5px;
   font-size: 2rem;
-  font-family: Actief Grotesque,   sans-serif;
+  font-family: Actief Grotesque, sans-serif;
   font-weight: 6rem;
   color: black;
   text-align: center;
 }
 
-/* line 97, ../../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 100, ../../../../../PROYECTO FINAL/scss/_main.scss */
 article h1 {
   font-size: 40px;
 }
 
-/* line 100, ../../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 103, ../../../../../PROYECTO FINAL/scss/_main.scss */
 .formulario {
   display: flex;
   flex-direction: row;
   margin: auto;
 }
 
-/* line 105, ../../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 108, ../../../../../PROYECTO FINAL/scss/_main.scss */
 .seo {
   font-size: 30px;
 }
 
-/* line 109, ../../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 112, ../../../../../PROYECTO FINAL/scss/_main.scss */
 p {
   margin: 20px;
 }
