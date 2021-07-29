@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "iconos.css",
+	"sources": [
+		"../scss/iconos.scss"
+	],
+	"sourcesContent": [
+		"@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css')"
+	],
+	"names": [],
+	"mappings": "AAAA,OAAO,CAAC,4FAAI"
+}

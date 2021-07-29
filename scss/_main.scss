@@ -3,61 +3,19 @@
 	font-weight: $weight;
 	color: black;
 }
-.navbar{
-	align-items: center;
-}
-#header{
-	background-color: #34E4DF;
-	height: 90px;
-	width: 100%;
-	position: fixed;
-	top: 0px;
-	z-index: 100;
-	border-bottom: 1px solid black;
-}
-#header .botonera{
-
-
-}
-#header .botonera ul{
-
-}
-#header .botonera ul li{
-	display: inline-block;
-
-}
-#header .botonera ul li a{
-
-}
-#header .logo{
-
-}
-#header .logo img{
-
-}
-#contenido{
-
-}
-#contenedor h2{
-
-}
-#contenedor h3{
-
-}
-#contenedor .productos{
-
-}
 body{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 400;
 }
-.subtitulo{
-	margin: auto;
-	text-align: center;
-}
-#grilla{
-	min-height: 20px;
+.logo{
+	font-size: 20px;
+	color: coral;
+	margin-top: 5px;
 
+}
+.logoM{
+	font-size: 25px;
+	color: black;
 }
 .type-light{
 	@include fuentes(1rem, $fuente-light);
@@ -70,8 +28,8 @@ body{
 }
 .type-bold--titulos{
 	@extend .type-bold;
-	padding: 50px;
-	font-size: 4rem;
+	padding: 20px;
+	font-size: 3rem;
 	margin: auto;
 	text-align: center;
 	display: block;
@@ -88,6 +46,25 @@ body{
 	text-align: center;
 	color: #000;
 	font-size: 30px;
+}
+.bgColor{
+	background-color: #12A4A6 !important;
+	color: black !important;
+
+}
+.miType{
+	font-family: Actief Grotesque, sans-serif;
+}
+.subtitulo{
+	margin: auto;
+	text-align: center;
+}
+#grilla{
+	min-height: 20px;
+}
+
+.banner{
+	width: 100vh;
 }
 .adn{
 	letter-spacing: 0.5px;
@@ -111,4 +88,11 @@ article h1{
 }
 p{
 	margin: 20px;
+}
+.footer{
+	border-top: solid coral;
+	height: 200px;
+}
+.redes{
+	text-align: center;
 }
