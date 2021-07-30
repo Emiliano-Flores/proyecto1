@@ -14,34 +14,34 @@ body {
   margin-top: 5px;
 }
 
-/* line 16, ../../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 15, ../../../../../PROYECTO FINAL/scss/_main.scss */
 .logoM {
   font-size: 25px;
   color: black;
 }
 
-/* line 20, ../../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 19, ../../../../../PROYECTO FINAL/scss/_main.scss */
 .type-light, .type-light--subtitulo, .seo {
   font-size: 1rem;
   font-weight: 100;
   color: black;
 }
 
-/* line 23, ../../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 22, ../../../../../PROYECTO FINAL/scss/_main.scss */
 .type-regular {
   font-size: 1rem;
   font-weight: 400;
   color: black;
 }
 
-/* line 26, ../../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 25, ../../../../../PROYECTO FINAL/scss/_main.scss */
 .type-bold, .type-bold--titulos {
   font-size: 1rem;
   font-weight: 700;
   color: black;
 }
 
-/* line 29, ../../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 28, ../../../../../PROYECTO FINAL/scss/_main.scss */
 .type-bold--titulos {
   font-size: 3rem;
   margin: auto;
@@ -53,12 +53,12 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-/* line 39, ../../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 38, ../../../../../PROYECTO FINAL/scss/_main.scss */
 .type-bold--titulos:hover {
   color: coral;
 }
 
-/* line 44, ../../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 43, ../../../../../PROYECTO FINAL/scss/_main.scss */
 .type-light--subtitulo, .seo {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
@@ -66,41 +66,41 @@ body {
   font-size: 30px;
 }
 
-/* line 51, ../../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 50, ../../../../../PROYECTO FINAL/scss/_main.scss */
 .bgColor {
   background-color: #12A4A6 !important;
   color: black !important;
 }
 
-/* line 56, ../../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 55, ../../../../../PROYECTO FINAL/scss/_main.scss */
 .miType {
   font-family: Actief Grotesque, sans-serif;
 }
 
-/* line 59, ../../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 58, ../../../../../PROYECTO FINAL/scss/_main.scss */
 .subtitulo {
   padding: 30px;
   margin-top: 30px;
   text-align: center;
 }
 
-/* line 64, ../../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 63, ../../../../../PROYECTO FINAL/scss/_main.scss */
 .sombra {
   text-shadow: black 0 -2px;
   color: #12A4A6;
 }
 
-/* line 68, ../../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 67, ../../../../../PROYECTO FINAL/scss/_main.scss */
 #grilla {
   min-height: 20px;
 }
 
-/* line 72, ../../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 71, ../../../../../PROYECTO FINAL/scss/_main.scss */
 .banner {
   width: 100vh;
 }
 
-/* line 75, ../../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 74, ../../../../../PROYECTO FINAL/scss/_main.scss */
 .adn {
   letter-spacing: 0.5px;
   font-size: 2rem;
@@ -110,40 +110,40 @@ body {
   text-align: center;
 }
 
-/* line 83, ../../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 82, ../../../../../PROYECTO FINAL/scss/_main.scss */
 article h1 {
   font-size: 40px;
 }
 
-/* line 86, ../../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 85, ../../../../../PROYECTO FINAL/scss/_main.scss */
 .formulario {
   display: flex;
   flex-direction: row;
   margin: auto;
 }
 
-/* line 91, ../../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 90, ../../../../../PROYECTO FINAL/scss/_main.scss */
 .seo {
   font-size: 30px;
 }
 
-/* line 95, ../../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 94, ../../../../../PROYECTO FINAL/scss/_main.scss */
 p {
   margin: 20px;
 }
 
-/* line 98, ../../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 97, ../../../../../PROYECTO FINAL/scss/_main.scss */
 .footer {
   border-top: solid coral;
   height: 200px;
 }
 
-/* line 102, ../../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 101, ../../../../../PROYECTO FINAL/scss/_main.scss */
 .footAlign {
   text-align: center;
 }
 
-/* line 105, ../../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 104, ../../../../../PROYECTO FINAL/scss/_main.scss */
 .listas {
   list-style: outside none none;
   padding: 0;
@@ -151,22 +151,22 @@ p {
   line-height: 2rem;
 }
 
-/* line 111, ../../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 110, ../../../../../PROYECTO FINAL/scss/_main.scss */
 .redes {
   height: 25px;
 }
 
-/* line 114, ../../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 113, ../../../../../PROYECTO FINAL/scss/_main.scss */
 .container {
   height: 75px;
 }
 
-/* line 117, ../../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 116, ../../../../../PROYECTO FINAL/scss/_main.scss */
 .borde {
   border-bottom: solid coral;
 }
 
-/* line 120, ../../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 119, ../../../../../PROYECTO FINAL/scss/_main.scss */
 h4 {
   margin-top: 20px;
 }
