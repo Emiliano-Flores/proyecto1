@@ -21,6 +21,7 @@ body{
 }
 .type-regular{
 	@include fuentes(1rem, $fuente-regular);
+	text-align: center;
 }
 .type-bold{
 	@include fuentes(1rem, $fuente-bold);
@@ -61,7 +62,7 @@ body{
 	color: coral;
 }
 .subtitulo{
-	padding: 30px;
+	padding: 10px;
 	margin-top: 30px;
 	text-align: center;
 }
@@ -120,6 +121,10 @@ p{
 }
 .borde{
 	border-bottom: solid coral;
+}
+#tarjetas img{
+	height: 45px;
+	width: 75px;
 }
 h4{
 	margin-top: 20px;
