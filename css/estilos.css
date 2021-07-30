@@ -82,21 +82,25 @@ body {
   padding: 30px;
   margin-top: 30px;
   text-align: center;
+}
+
+/* line 64, ../../../../../PROYECTO FINAL/scss/_main.scss */
+.sombra {
   text-shadow: black 0 -2px;
   color: #12A4A6;
 }
 
-/* line 66, ../../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 68, ../../../../../PROYECTO FINAL/scss/_main.scss */
 #grilla {
   min-height: 20px;
 }
 
-/* line 70, ../../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 72, ../../../../../PROYECTO FINAL/scss/_main.scss */
 .banner {
   width: 100vh;
 }
 
-/* line 73, ../../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 75, ../../../../../PROYECTO FINAL/scss/_main.scss */
 .adn {
   letter-spacing: 0.5px;
   font-size: 2rem;
@@ -106,40 +110,40 @@ body {
   text-align: center;
 }
 
-/* line 81, ../../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 83, ../../../../../PROYECTO FINAL/scss/_main.scss */
 article h1 {
   font-size: 40px;
 }
 
-/* line 84, ../../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 86, ../../../../../PROYECTO FINAL/scss/_main.scss */
 .formulario {
   display: flex;
   flex-direction: row;
   margin: auto;
 }
 
-/* line 89, ../../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 91, ../../../../../PROYECTO FINAL/scss/_main.scss */
 .seo {
   font-size: 30px;
 }
 
-/* line 93, ../../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 95, ../../../../../PROYECTO FINAL/scss/_main.scss */
 p {
   margin: 20px;
 }
 
-/* line 96, ../../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 98, ../../../../../PROYECTO FINAL/scss/_main.scss */
 .footer {
   border-top: solid coral;
   height: 200px;
 }
 
-/* line 100, ../../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 102, ../../../../../PROYECTO FINAL/scss/_main.scss */
 .footAlign {
   text-align: center;
 }
 
-/* line 103, ../../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 105, ../../../../../PROYECTO FINAL/scss/_main.scss */
 .listas {
   list-style: outside none none;
   padding: 0;
@@ -147,22 +151,22 @@ p {
   line-height: 2rem;
 }
 
-/* line 109, ../../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 111, ../../../../../PROYECTO FINAL/scss/_main.scss */
 .redes {
   height: 25px;
 }
 
-/* line 112, ../../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 114, ../../../../../PROYECTO FINAL/scss/_main.scss */
 .container {
   height: 75px;
 }
 
-/* line 115, ../../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 117, ../../../../../PROYECTO FINAL/scss/_main.scss */
 .borde {
   border-bottom: solid coral;
 }
 
-/* line 118, ../../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 120, ../../../../../PROYECTO FINAL/scss/_main.scss */
 h4 {
   margin-top: 20px;
 }
