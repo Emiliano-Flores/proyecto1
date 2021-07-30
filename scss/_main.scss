@@ -24,7 +24,8 @@ body{
 	text-align: center;
 }
 .type-bold{
-	@include fuentes(1rem, $fuente-bold);
+	@include fuentes(2rem, $fuente-bold);
+	text-align: center;
 }
 .type-bold--titulos{
 	@extend .type-bold;
