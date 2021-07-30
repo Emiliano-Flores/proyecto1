@@ -28,11 +28,12 @@ body{
 }
 .type-bold--titulos{
 	@extend .type-bold;
-	padding: 20px;
 	font-size: 3rem;
 	margin: auto;
 	text-align: center;
 	display: block;
+	color: #fff;
+	text-shadow: black 0 -2px;
 	background-color: #12A4A6;
 	font-family: 'Montserrat', sans-serif;
 	&:hover{
@@ -56,7 +57,8 @@ body{
 	font-family: Actief Grotesque, sans-serif;
 }
 .subtitulo{
-	margin: auto;
+	padding: 30px;
+	margin-top: 30px;
 	text-align: center;
 }
 #grilla{
@@ -93,6 +95,24 @@ p{
 	border-top: solid coral;
 	height: 200px;
 }
-.redes{
+.footAlign{
 	text-align: center;
+}
+.listas{
+	list-style: outside none none;
+	padding: 0;
+	margin: 0;
+	line-height: 2rem;
+}
+.redes{
+	height: 25px;
+}
+.container{
+	height: 75px;
+}
+.borde{
+	border-bottom: solid coral;
+}
+h4{
+	margin-top: 20px;
 }
