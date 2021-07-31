@@ -78,8 +78,8 @@ body {
 
 /* line 60, ../../../../../PROYECTO FINAL/scss/_main.scss */
 .bgColor2 {
-  background-color: #ff7f5096;
-  color: black;
+  background-color: #12A4A6;
+  color: #fff;
 }
 
 /* line 64, ../../../../../PROYECTO FINAL/scss/_main.scss */
@@ -118,12 +118,18 @@ body {
   min-height: 20px;
 }
 
-/* line 89, ../../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 88, ../../../../../PROYECTO FINAL/scss/_main.scss */
+.wT {
+  width: 60%;
+  margin: auto;
+}
+
+/* line 93, ../../../../../PROYECTO FINAL/scss/_main.scss */
 .banner {
   width: 100vh;
 }
 
-/* line 92, ../../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 96, ../../../../../PROYECTO FINAL/scss/_main.scss */
 .adn {
   letter-spacing: 0.5px;
   font-size: 2rem;
@@ -133,40 +139,40 @@ body {
   text-align: center;
 }
 
-/* line 100, ../../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 104, ../../../../../PROYECTO FINAL/scss/_main.scss */
 article h1 {
   font-size: 40px;
 }
 
-/* line 103, ../../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 107, ../../../../../PROYECTO FINAL/scss/_main.scss */
 .formulario {
   display: flex;
   flex-direction: row;
   margin: auto;
 }
 
-/* line 108, ../../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 112, ../../../../../PROYECTO FINAL/scss/_main.scss */
 .seo {
   font-size: 30px;
 }
 
-/* line 112, ../../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 116, ../../../../../PROYECTO FINAL/scss/_main.scss */
 p {
   margin: 20px;
 }
 
-/* line 115, ../../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 119, ../../../../../PROYECTO FINAL/scss/_main.scss */
 .footer {
   border-top: solid #12A4A6;
   height: 200px;
 }
 
-/* line 119, ../../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 123, ../../../../../PROYECTO FINAL/scss/_main.scss */
 .footAlign {
   text-align: center;
 }
 
-/* line 122, ../../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 126, ../../../../../PROYECTO FINAL/scss/_main.scss */
 .listas {
   list-style: outside none none;
   padding: 0;
@@ -174,28 +180,28 @@ p {
   line-height: 2rem;
 }
 
-/* line 128, ../../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 132, ../../../../../PROYECTO FINAL/scss/_main.scss */
 .redes {
   height: 25px;
 }
 
-/* line 131, ../../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 135, ../../../../../PROYECTO FINAL/scss/_main.scss */
 .container {
   height: 75px;
 }
 
-/* line 134, ../../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 138, ../../../../../PROYECTO FINAL/scss/_main.scss */
 .borde {
   border-bottom: solid coral;
 }
 
-/* line 137, ../../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 141, ../../../../../PROYECTO FINAL/scss/_main.scss */
 #tarjetas img {
   height: 45px;
   width: 75px;
 }
 
-/* line 141, ../../../../../PROYECTO FINAL/scss/_main.scss */
+/* line 145, ../../../../../PROYECTO FINAL/scss/_main.scss */
 h4 {
   margin-top: 20px;
 }
