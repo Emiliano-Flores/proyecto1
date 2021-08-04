@@ -39,10 +39,6 @@ body{
 	text-shadow: black 0 -2px;
 	background-color: #12A4A6;
 	font-family: 'Montserrat', sans-serif;
-	&:hover{
-		color: coral;
-	}
-
 }
 .type-light--subtitulo{
 	@extend .type-light;
